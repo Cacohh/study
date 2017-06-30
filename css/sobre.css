@@ -6,6 +6,10 @@ body {
     width: 940px;
 }
 
+a {
+    text-decoration: none;
+}
+
 h1 {
     background-image: url(../img/sobre-background.jpg);
     padding: 10px;
