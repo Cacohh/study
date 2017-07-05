@@ -7,6 +7,16 @@
     width: 140px;
 }
 
+header {
+    position: relative;
+}
+
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
 .menu-opcoes ul {
     font-size: 1x;
 }
