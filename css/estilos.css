@@ -73,6 +73,23 @@
         text-decoration: none;
     }
     
+    .menu-departamentos li ul {
+        display: none;
+    }
+    
+    .menu-departamentos li:hover ul {
+        display: block;
+    }
+    
+    .menu-departamentos ul ul li {
+        background-color: #dcdcdc;
+    }
+    
+    .menu-departamentos li li a:before {
+        content: '\2756';
+        padding-right: 5px;
+    }
+    
     .busca input {
         vertical-align: middle;
     }
@@ -118,14 +135,38 @@
         text-decoration: none;
     }
     
+    .painel {
+        border-radius: 4px;
+        box-shadow: 5px 5px 4px #999;
+    }
+    
+    .painel li:hover {
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: 0px 0px 5px #333;
+        transform: scale(1.2) rotate(-5deg);
+        ;
+        transition: 0.7s;
+    }
+    
+    .painel h2 {
+        text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+    }
+    
+    .painel h2:before {
+        content: '\2756';
+        padding-right: 5px;
+    }
+    
     .novidades {
         float: left;
         background-color: #f5dcdc;
+        background: linear-gradient(#f5dcdc, #bebef4);
     }
     
     .mais-vendidos {
         float: right;
-        background-color: #dcdcf5;
+        background: #dcdcf5;
+        background: linear-gradient(#dcdcf5, #f4bebe);
     }
     
     footer {
@@ -180,4 +221,12 @@
     .social li {
         display: inline-block;
         margin-left: 25px;
+    }
+    
+    .menu-opcoes a:hover {
+        color: #007dc6;
+    }
+    
+    .menu-opcoes a:active {
+        color: #867dc6;
     }
