@@ -90,6 +90,10 @@ label[for=azul]:after {
     text-transform: uppercase;
 }
 
+.form-control:invalid {
+    border: 1px solid #cc0000;
+}
+
 .comprar {
     background: #91bd3c;
     border: none;
