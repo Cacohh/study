@@ -37,6 +37,7 @@
                 </nav>
             </section>
             <!-- fim .menu-departamentos -->
+            <a href="#" class="pause"></a>
             <img src="img/destaque-home.png" alt="Promoção: Big City Night">
         </div>
         <!-- fim .container .destaque -->
@@ -157,5 +158,6 @@
         </div>
     </section>
     <?php include("includes/footer.php") ?>
+    <script src="js/index.js"></script>
 </body>
 </html>
