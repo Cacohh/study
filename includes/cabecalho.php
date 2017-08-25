@@ -8,7 +8,9 @@
  print @$cabecalho_css2;
  print @$cabecalho_css3;
  print @$cabecalho_css4;
+ 
 ?>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans|Bad+Script' rel='stylesheet'>
 <meta name="viewport" content="width=device-width">
 </head>
 <body>

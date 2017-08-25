@@ -11,6 +11,10 @@
     transition: 1s;
 }
 
+h1 {
+    font-family: 'Indie Flower', cursive;
+}
+
 .cores label:hover:after {
     border: 6px solid rgba(0, 0, 0, 0.1);
 }
@@ -196,4 +200,15 @@ td:first-child {
         min-width: 200px;
         width: 45%;
     }
+}
+
+.tamanhos output {
+    display: inline-block;
+    height: 44px;
+    width: 44px;
+    line-height: 44px;
+    text-align: center;
+    border: 3px solid #666;
+    border-radius: 50%;
+    color: #555;
 }

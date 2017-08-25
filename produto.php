@@ -32,8 +32,9 @@ include("includes/cabecalho.php"); ?>
     </fieldset>
     <fieldset class="tamanhos">
         <legend>Escolha o tamanho:</legend>
-        <input type="range" min="36" max="46" value="42" step="2"
+        <input type="range" minS="36" max="46" value="42" step="2"
         name="tamanho" id="tamanho">
+        <output for="tamanho" name="valortamanho">0</output
     </fieldset>
 <input type="submit" class="comprar" value="Comprar" checked>
 </form>
@@ -74,5 +75,7 @@ include("includes/cabecalho.php"); ?>
 </div>
 </div>
    <?php include("includes/footer.php") ?>
+   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+   <script src="js/produto.js"></script>
 </body>
 </html>

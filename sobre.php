@@ -36,6 +36,8 @@
                 brasileiros nas instalações de Jacarezinho e nos escritórios em todo país. Dada a importância econômica da empresa para o Brasil, a família <em>Pelho</em> já recebeu diversos prêmios, homenagens e condecorações. Todos os presidentes do
                 Brasil já visitaram as instalações da Mirror Fashion, além de presidentes da União Européia, Ásia e o secretário-geral da ONU.
             </p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/haXJbh5It10" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.449481463326!2d-46.63454338537381!3d-23.58820766846854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum+-+Ensino+e+Inova%C3%A7%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1503686663378" width="1200" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </section>
         <section>
             <h2 id="diferenciais ">Diferenciais</h2>

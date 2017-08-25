@@ -37,7 +37,7 @@
                 </nav>
             </section>
             <!-- fim .menu-departamentos -->
-            <a href="#" class="pause"></a>
+            <a href="#" class="pause"></a> 
             <img src="img/destaque-home.png" alt="Promoção: Big City Night">
         </div>
         <!-- fim .container .destaque -->
@@ -47,7 +47,7 @@
         <!-- Painéis com destaques -->
         <div class="container paineis">
             <!-- os paines de novidades e mais vendidos entrarão aqui -->
-            <section class="painel novidades">
+            <section class="painel  novidades">
                 <h2>Novidades</h2>
                 <ol>
                     <!-- Primeiro produto -->
@@ -99,9 +99,18 @@
                             </figure>
                         </a>
                     </li>
+                    <li>
+                        <a href="produto.html">
+                            <figure>
+                                <img src="img/produtos/miniatura6.png">
+                                <figcaption>Fuzz Cardigan por R$129,00</figcaption>
+                            </figure>
+                        </a>
+                    </li>
                 </ol>
+                <button  type="button">Mostra mais</button>
             </section>
-            <section class="painel mais-vendidos">
+            <section class="painel  mais-vendidos">
                 <h2>Mais vendidos</h2>
                 <ol>
                     <!-- Primeiro produto -->
@@ -153,11 +162,21 @@
                             </figure>
                         </a>
                     </li>
+                    <li>
+                        <a href="produto.html">
+                            <figure>
+                                <img src="img/produtos/miniatura5.png">
+                                <figcaption>Fuzz Cardigan por R$129,00</figcaption>
+                            </figure>
+                        </a>
+                    </li>
                 </ol>
+                <button  type="button">Mostra mais</button>
             </section>
         </div>
     </section>
     <?php include("includes/footer.php") ?>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
 </body>
 </html>
